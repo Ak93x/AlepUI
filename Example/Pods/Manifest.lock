@@ -1,0 +1,16 @@
+PODS:
+  - AlepUI (0.1.0)
+
+DEPENDENCIES:
+  - AlepUI (from `../`)
+
+EXTERNAL SOURCES:
+  AlepUI:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AlepUI: b3593da29f4d6e9fefae37614d7af3b5416a6680
+
+PODFILE CHECKSUM: 227f1db319a5ea814b75295da7fcc900be5a6514
+
+COCOAPODS: 1.8.4

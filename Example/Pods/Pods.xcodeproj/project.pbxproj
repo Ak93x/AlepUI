@@ -1,0 +1,803 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13213ECD2B025B75DDBE7D1942B2E1E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2F1C693AC67C8F2F399C38455DEC0F5C /* Pods-AlepUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0248D29CB1F5B508D59DDE69991FFD4F /* Pods-AlepUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D8DFC91C22CCCA29D259DEC6E75042C /* Pods-AlepUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634B66CE1FAEB5245128DDBB3D235C7A /* Pods-AlepUI_Tests-dummy.m */; };
+		9C8F06F22F8799A09FB20CE1823CE80B /* AlepUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8216B7D3787DF8C8D827B7C6963D262E /* AlepUI-dummy.m */; };
+		B9EFAD5D860EC584FCFB428477561FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C9422111BF2DE22868F3977275820F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E12727AF8E510BA81E979799FC47F659 /* Pods-AlepUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D047DA1A4C2E08079EA6828DC780F411 /* Pods-AlepUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F764882240C9ED905599396B1FB8293C /* Pods-AlepUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 051006B2A7292C5A54156B8E7ED8C03F /* Pods-AlepUI_Example-dummy.m */; };
+		FC9DB39F26EF781AD7E4584F2B43AF99 /* AlepUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E614188EEE847EB766EA7F78ED4E081E /* AlepUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13073A77562B6DFBADDA00BA3AB8259D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED4BD6EE433BA9A48D1D835808CBA48D;
+			remoteInfo = AlepUI;
+		};
+		88AEFF088397B4925328EAD322E45532 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B92AA92B1529F782F3D4D77888BE9C7;
+			remoteInfo = "Pods-AlepUI_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0248D29CB1F5B508D59DDE69991FFD4F /* Pods-AlepUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlepUI_Tests-umbrella.h"; sourceTree = "<group>"; };
+		051006B2A7292C5A54156B8E7ED8C03F /* Pods-AlepUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlepUI_Example-dummy.m"; sourceTree = "<group>"; };
+		0C9AB9E3F1D6567093FECAB4DE9DA8B1 /* AlepUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlepUI.modulemap; sourceTree = "<group>"; };
+		0FBE3D5B33EC24ABF94EA02AA172886C /* Pods-AlepUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Tests-Info.plist"; sourceTree = "<group>"; };
+		1CC047E03E6319B8D9F1238F136C6C3B /* AlepUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AlepUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlepUI.xcconfig; sourceTree = "<group>"; };
+		2A08DF03626C802EE9539121EE8665D6 /* Pods-AlepUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlepUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		32286872C2112C6C312B2296C051D86E /* AlepUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlepUI-Info.plist"; sourceTree = "<group>"; };
+		374FD85C77B7CA45AC9FBEA29C5B73CF /* Pods_AlepUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlepUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAE57B263D102E2A5F69999936E1AD3 /* AlepUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlepUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		634B66CE1FAEB5245128DDBB3D235C7A /* Pods-AlepUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlepUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		6DC0FDFA23E5BABE392C3E3BFB119BCE /* Pods-AlepUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7663AC6A08023CC9196A6E738CF96A6D /* Pods-AlepUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		779D3F40ED75373538F2789153659F56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7A6D4F95CD86135CEE01A9B66B02C2D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7C3AA84125FF394A73BC656F6323CAD4 /* AlepUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlepUI-prefix.pch"; sourceTree = "<group>"; };
+		8216B7D3787DF8C8D827B7C6963D262E /* AlepUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlepUI-dummy.m"; sourceTree = "<group>"; };
+		8FA22FC31E3C8B3E651D64266B04315F /* Pods-AlepUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlepUI_Example-frameworks.sh"; sourceTree = "<group>"; };
+		953CA90E1A37C7EA47B79D7C07B3FDD4 /* Pods-AlepUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB58AE6C1C1D79947DEE8F5526D6FB46 /* Pods_AlepUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlepUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF9C84354A98FAFA5BDB4690E2EEA031 /* Pods-AlepUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C422B19F531485457EB88DA16B115E3D /* Pods-AlepUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlepUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA327B97F1799E437BF59CE85773863C /* Pods-AlepUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CDF90CBFF12A3699E7131BCDC5C68FFA /* Pods-AlepUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlepUI_Example.modulemap"; sourceTree = "<group>"; };
+		D047DA1A4C2E08079EA6828DC780F411 /* Pods-AlepUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlepUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		E520C29CF51FD0CAF4808A7F328B7582 /* Pods-AlepUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E614188EEE847EB766EA7F78ED4E081E /* AlepUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlepUI-umbrella.h"; sourceTree = "<group>"; };
+		EE5528098C6ED6C9D5BE1AE998885843 /* Pods-AlepUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlepUI_Tests.modulemap"; sourceTree = "<group>"; };
+		FCECE1B56BB92A1CE8E6A82221787898 /* Pods-AlepUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Example-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		529AC0F774091B25D28294D99D813A2D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13213ECD2B025B75DDBE7D1942B2E1E8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9EA2B185C491D95B1DE92716B3532FB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EFAD5D860EC584FCFB428477561FFB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6B67295FA68C02F92D8E7A9F4871D80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9422111BF2DE22868F3977275820F72 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E0C6C32B187DC84BAAEE854520CC2D /* AlepUI */ = {
+			isa = PBXGroup;
+			children = (
+				7537B4939638E8C7B301E59244C4389A /* Pod */,
+				E30C9279A58FC0FCC357A43C653ADCB1 /* Support Files */,
+			);
+			name = AlepUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		4AEB714C19CB6E26070BA2E918441B8C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CAE57B263D102E2A5F69999936E1AD3 /* AlepUI.framework */,
+				AB58AE6C1C1D79947DEE8F5526D6FB46 /* Pods_AlepUI_Example.framework */,
+				374FD85C77B7CA45AC9FBEA29C5B73CF /* Pods_AlepUI_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		698DDD125FEE58383985F361CDC4074F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E0C6C32B187DC84BAAEE854520CC2D /* AlepUI */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7537B4939638E8C7B301E59244C4389A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				1CC047E03E6319B8D9F1238F136C6C3B /* AlepUI.podspec */,
+				7A6D4F95CD86135CEE01A9B66B02C2D3 /* LICENSE */,
+				779D3F40ED75373538F2789153659F56 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		8A266CC3FC1511FE411F96BFE85AD2C4 /* Pods-AlepUI_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EE5528098C6ED6C9D5BE1AE998885843 /* Pods-AlepUI_Tests.modulemap */,
+				C422B19F531485457EB88DA16B115E3D /* Pods-AlepUI_Tests-acknowledgements.markdown */,
+				6DC0FDFA23E5BABE392C3E3BFB119BCE /* Pods-AlepUI_Tests-acknowledgements.plist */,
+				634B66CE1FAEB5245128DDBB3D235C7A /* Pods-AlepUI_Tests-dummy.m */,
+				0FBE3D5B33EC24ABF94EA02AA172886C /* Pods-AlepUI_Tests-Info.plist */,
+				0248D29CB1F5B508D59DDE69991FFD4F /* Pods-AlepUI_Tests-umbrella.h */,
+				CA327B97F1799E437BF59CE85773863C /* Pods-AlepUI_Tests.debug.xcconfig */,
+				7663AC6A08023CC9196A6E738CF96A6D /* Pods-AlepUI_Tests.release.xcconfig */,
+			);
+			name = "Pods-AlepUI_Tests";
+			path = "Target Support Files/Pods-AlepUI_Tests";
+			sourceTree = "<group>";
+		};
+		A5F2C73DB4950F0017679EDF9F8E83DD /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC977B338024A2967429D8A814C0274F /* Pods-AlepUI_Example */,
+				8A266CC3FC1511FE411F96BFE85AD2C4 /* Pods-AlepUI_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CC977B338024A2967429D8A814C0274F /* Pods-AlepUI_Example */ = {
+			isa = PBXGroup;
+			children = (
+				CDF90CBFF12A3699E7131BCDC5C68FFA /* Pods-AlepUI_Example.modulemap */,
+				2A08DF03626C802EE9539121EE8665D6 /* Pods-AlepUI_Example-acknowledgements.markdown */,
+				E520C29CF51FD0CAF4808A7F328B7582 /* Pods-AlepUI_Example-acknowledgements.plist */,
+				051006B2A7292C5A54156B8E7ED8C03F /* Pods-AlepUI_Example-dummy.m */,
+				8FA22FC31E3C8B3E651D64266B04315F /* Pods-AlepUI_Example-frameworks.sh */,
+				FCECE1B56BB92A1CE8E6A82221787898 /* Pods-AlepUI_Example-Info.plist */,
+				D047DA1A4C2E08079EA6828DC780F411 /* Pods-AlepUI_Example-umbrella.h */,
+				AF9C84354A98FAFA5BDB4690E2EEA031 /* Pods-AlepUI_Example.debug.xcconfig */,
+				953CA90E1A37C7EA47B79D7C07B3FDD4 /* Pods-AlepUI_Example.release.xcconfig */,
+			);
+			name = "Pods-AlepUI_Example";
+			path = "Target Support Files/Pods-AlepUI_Example";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				698DDD125FEE58383985F361CDC4074F /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4AEB714C19CB6E26070BA2E918441B8C /* Products */,
+				A5F2C73DB4950F0017679EDF9F8E83DD /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E30C9279A58FC0FCC357A43C653ADCB1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C9AB9E3F1D6567093FECAB4DE9DA8B1 /* AlepUI.modulemap */,
+				1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */,
+				8216B7D3787DF8C8D827B7C6963D262E /* AlepUI-dummy.m */,
+				32286872C2112C6C312B2296C051D86E /* AlepUI-Info.plist */,
+				7C3AA84125FF394A73BC656F6323CAD4 /* AlepUI-prefix.pch */,
+				E614188EEE847EB766EA7F78ED4E081E /* AlepUI-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AlepUI";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DF0E17BB0B545E39F141D7A369A73D8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC9DB39F26EF781AD7E4584F2B43AF99 /* AlepUI-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE7F50455B47202C2C62A1B78AD484D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F1C693AC67C8F2F399C38455DEC0F5C /* Pods-AlepUI_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEFD2A77C989EE294854B6C0E40F065E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E12727AF8E510BA81E979799FC47F659 /* Pods-AlepUI_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		663810F7683429F1774D276B50769A19 /* Pods-AlepUI_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180ADEE7F71FC26893B079998B29C3B4 /* Build configuration list for PBXNativeTarget "Pods-AlepUI_Tests" */;
+			buildPhases = (
+				CE7F50455B47202C2C62A1B78AD484D0 /* Headers */,
+				B709CA7C33A4AF80CA424AA6FEEC4EF8 /* Sources */,
+				B6B67295FA68C02F92D8E7A9F4871D80 /* Frameworks */,
+				C40F39F5B1C4E18F1DACBD4B18AF91D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				54E07F2E8473BCA8A99845237EF2EF6B /* PBXTargetDependency */,
+			);
+			name = "Pods-AlepUI_Tests";
+			productName = "Pods-AlepUI_Tests";
+			productReference = 374FD85C77B7CA45AC9FBEA29C5B73CF /* Pods_AlepUI_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6B92AA92B1529F782F3D4D77888BE9C7 /* Pods-AlepUI_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E18A179C345CEA6C5525F3D0053B3E /* Build configuration list for PBXNativeTarget "Pods-AlepUI_Example" */;
+			buildPhases = (
+				DEFD2A77C989EE294854B6C0E40F065E /* Headers */,
+				9DEB0E19675403422479E284F335CD34 /* Sources */,
+				9EA2B185C491D95B1DE92716B3532FB8 /* Frameworks */,
+				1A3D33757FFAED5904464B49C67C3982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A74598D9D33FD8795A24345B73A5A8B /* PBXTargetDependency */,
+			);
+			name = "Pods-AlepUI_Example";
+			productName = "Pods-AlepUI_Example";
+			productReference = AB58AE6C1C1D79947DEE8F5526D6FB46 /* Pods_AlepUI_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ED4BD6EE433BA9A48D1D835808CBA48D /* AlepUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 877972615F8996D7C033F64628A8176C /* Build configuration list for PBXNativeTarget "AlepUI" */;
+			buildPhases = (
+				8DF0E17BB0B545E39F141D7A369A73D8 /* Headers */,
+				21542DBF6923E7DBD64428853B0FA345 /* Sources */,
+				529AC0F774091B25D28294D99D813A2D /* Frameworks */,
+				C606450EBC7366C210F1780DE43A33A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlepUI;
+			productName = AlepUI;
+			productReference = 3CAE57B263D102E2A5F69999936E1AD3 /* AlepUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				TargetAttributes = {
+					663810F7683429F1774D276B50769A19 = {
+						DevelopmentTeam = 93FAY8FJ36;
+						ProvisioningStyle = Automatic;
+					};
+					6B92AA92B1529F782F3D4D77888BE9C7 = {
+						DevelopmentTeam = 93FAY8FJ36;
+						ProvisioningStyle = Automatic;
+					};
+					ED4BD6EE433BA9A48D1D835808CBA48D = {
+						DevelopmentTeam = 93FAY8FJ36;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4AEB714C19CB6E26070BA2E918441B8C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED4BD6EE433BA9A48D1D835808CBA48D /* AlepUI */,
+				6B92AA92B1529F782F3D4D77888BE9C7 /* Pods-AlepUI_Example */,
+				663810F7683429F1774D276B50769A19 /* Pods-AlepUI_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A3D33757FFAED5904464B49C67C3982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C40F39F5B1C4E18F1DACBD4B18AF91D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C606450EBC7366C210F1780DE43A33A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21542DBF6923E7DBD64428853B0FA345 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C8F06F22F8799A09FB20CE1823CE80B /* AlepUI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DEB0E19675403422479E284F335CD34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F764882240C9ED905599396B1FB8293C /* Pods-AlepUI_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B709CA7C33A4AF80CA424AA6FEEC4EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D8DFC91C22CCCA29D259DEC6E75042C /* Pods-AlepUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A74598D9D33FD8795A24345B73A5A8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AlepUI;
+			target = ED4BD6EE433BA9A48D1D835808CBA48D /* AlepUI */;
+			targetProxy = 13073A77562B6DFBADDA00BA3AB8259D /* PBXContainerItemProxy */;
+		};
+		54E07F2E8473BCA8A99845237EF2EF6B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-AlepUI_Example";
+			target = 6B92AA92B1529F782F3D4D77888BE9C7 /* Pods-AlepUI_Example */;
+			targetProxy = 88AEFF088397B4925328EAD322E45532 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		24733E78CB06D0960F224DCB8919EEAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA327B97F1799E437BF59CE85773863C /* Pods-AlepUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 93FAY8FJ36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3407C4619863DBD93683175F5B033211 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7663AC6A08023CC9196A6E738CF96A6D /* Pods-AlepUI_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 93FAY8FJ36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4CCF947976F54F5F9D2A3F291ADAC2D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 953CA90E1A37C7EA47B79D7C07B3FDD4 /* Pods-AlepUI_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 93FAY8FJ36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DC017F10D3BE628A60996E5A8180DC66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF9C84354A98FAFA5BDB4690E2EEA031 /* Pods-AlepUI_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 93FAY8FJ36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E14A95BBABD1203854E631FD79D0A414 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 93FAY8FJ36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlepUI/AlepUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlepUI/AlepUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlepUI/AlepUI.modulemap";
+				PRODUCT_MODULE_NAME = AlepUI;
+				PRODUCT_NAME = AlepUI;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F28AF5F837DF8432B6FB11C6B5674803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 93FAY8FJ36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AlepUI/AlepUI-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AlepUI/AlepUI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AlepUI/AlepUI.modulemap";
+				PRODUCT_MODULE_NAME = AlepUI;
+				PRODUCT_NAME = AlepUI;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180ADEE7F71FC26893B079998B29C3B4 /* Build configuration list for PBXNativeTarget "Pods-AlepUI_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24733E78CB06D0960F224DCB8919EEAF /* Debug */,
+				3407C4619863DBD93683175F5B033211 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		877972615F8996D7C033F64628A8176C /* Build configuration list for PBXNativeTarget "AlepUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28AF5F837DF8432B6FB11C6B5674803 /* Debug */,
+				E14A95BBABD1203854E631FD79D0A414 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E18A179C345CEA6C5525F3D0053B3E /* Build configuration list for PBXNativeTarget "Pods-AlepUI_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC017F10D3BE628A60996E5A8180DC66 /* Debug */,
+				4CCF947976F54F5F9D2A3F291ADAC2D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

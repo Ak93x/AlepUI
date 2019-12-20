@@ -1,0 +1,6 @@
+framework module AlepUI {
+  umbrella header "AlepUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
