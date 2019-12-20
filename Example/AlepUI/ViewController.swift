@@ -7,17 +7,20 @@
 //
 
 import UIKit
+import AlepUI
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
+        let lbl = UILabel()
+        lbl.makeLabel(text: "AlepUI", color: .red, backgroundColor: .black, fontName: "HelveticaNeue", fontSize: 50, textAlignment: .center)
+        
+        view.addSubview(lbl)
+        _ = lbl.anchorToTop(view.topAnchor, left: view.leftAnchor, bottom: view.bottomAnchor, right: view.rightAnchor)
+        
     }
 
 }
