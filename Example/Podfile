@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AlepUI_Example' do
+  pod 'AlepUI', :path => '../'
+
+  target 'AlepUI_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
