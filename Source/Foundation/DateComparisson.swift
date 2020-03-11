@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension Date {
+public extension Date {
     
 
     func isLessThan(_ date: Date) -> Bool {

@@ -7,7 +7,7 @@
 
 import Foundation
 
-extension String {
+public extension String {
     
     func toDate(stringFormat: String = "yyyy-MM-dd'T'HH:mm:ssZ") -> Date {
         
