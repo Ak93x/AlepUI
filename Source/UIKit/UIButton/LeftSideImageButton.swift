@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class LeftSideImageButton: UIButton {
+open class LeftSideImageButton: UIButton {
     
     func updateUI(backgroundColor: UIColor = .clear, title: String, titleColor: UIColor = .black, fontSize: CGFloat, imageName: String) {
         buttonLeftImage.makeAspectFitImage(imageName: imageName)
