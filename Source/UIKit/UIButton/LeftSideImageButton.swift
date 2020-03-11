@@ -7,22 +7,22 @@
 
 import UIKit
 
-open class LeftSideImageButton: UIButton {
+public class LeftSideImageButton: UIButton {
     
-    func updateUI(backgroundColor: UIColor = .clear, title: String, titleColor: UIColor = .black, fontSize: CGFloat, imageName: String) {
+    public func updateUI(backgroundColor: UIColor = .clear, title: String, titleColor: UIColor = .black, fontSize: CGFloat, fontName: String, imageName: String) {
         buttonLeftImage.makeAspectFitImage(imageName: imageName)
-        self.makeButton(title: title, titleColor: titleColor, backgroundColor: backgroundColor, fontName: UIFont.thin, fontSize: fontSize)
+        self.makeButton(title: title, titleColor: titleColor, backgroundColor: backgroundColor, fontName: fontName, fontSize: fontSize)
     }
 //==========================================================================================
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
     }
-    override func layoutSubviews() {
+    public override func layoutSubviews() {
         super.layoutSubviews()
         
         setupView()
     }
-    required init?(coder: NSCoder) {
+    public required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
 //==========================================================================================
