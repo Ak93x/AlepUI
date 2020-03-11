@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		13213ECD2B025B75DDBE7D1942B2E1E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		0749EE90B4871A32AC5D379AA40892F9 /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AF0891C5ADDBD80F6EB3431733FD349 /* AnimateView.swift */; };
+		183EDB1AA35004BDBF9A1D69EF81CE48 /* MakeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F909A493EFB40949DBCCD7DFDADA291B /* MakeLabel.swift */; };
+		1E807B633A1D1642273A96F4A38A09F6 /* MakeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54C68F884358BBBEF5B8D32AD846034B /* MakeTextField.swift */; };
+		2BA28DE8C0F8E737BC01C558462892C6 /* LeftSideImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E27769417BD1E60E51289D4294A53E95 /* LeftSideImageButton.swift */; };
+		2BB8E94D7B33D58113B54A8912194825 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 423D59EDF4ACDF4E0D3808C275C6B6C9 /* Colors.swift */; };
 		2F1C693AC67C8F2F399C38455DEC0F5C /* Pods-AlepUI_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0248D29CB1F5B508D59DDE69991FFD4F /* Pods-AlepUI_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		363BEA2B6E20EE553E6359F304B9384F /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C32E2119F91DD665174E60DC12BA474 /* DeviceSize.swift */; };
+		3EF4CADFE4BC521FDA0B9F6B515D89AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		407A2AA00A730185FB6E3FFFD8ACE16B /* MakeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 413CE9E5DA8E11E9B51F6578C46E45A6 /* MakeTextView.swift */; };
+		562B50A9BFA5D3F9FB9F3FF9798DC27B /* MakeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC973DF3E0BA9C827AFD28F143BACBD0 /* MakeLine.swift */; };
+		5898BD69BC711EA9087CF1AD6FC613AC /* AlepUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 509C7FD7C8C298C391D846B2B4661044 /* AlepUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		649A062B9E0AE06B2BA208A277F46464 /* DateComparisson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6AA257041A6A1BBDAAC96F58D0E5E4D /* DateComparisson.swift */; };
 		7D8DFC91C22CCCA29D259DEC6E75042C /* Pods-AlepUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634B66CE1FAEB5245128DDBB3D235C7A /* Pods-AlepUI_Tests-dummy.m */; };
-		9C8F06F22F8799A09FB20CE1823CE80B /* AlepUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8216B7D3787DF8C8D827B7C6963D262E /* AlepUI-dummy.m */; };
+		87D8A48D77A30175CC036AF60D982792 /* Aspect_Fill_Fit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1630AE50E5423EDDCA83F63D8D95A9 /* Aspect_Fill_Fit.swift */; };
+		8E38A0C7CE4D590646051F6EC72BADD8 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2126C308ABA9FA30CD78435BD08DBC4A /* AlertMessages.swift */; };
+		96BBCB2551B5C4F57F85AC9F54B8404D /* PrintFontNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB770948E855F0359F325C839F9E133D /* PrintFontNames.swift */; };
+		98FC96B8D1D1D0E901E140930D70B1AC /* FontSizeRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67FE26F1B5B01DBF3FA5488BA963ADD7 /* FontSizeRatio.swift */; };
+		A94B13ABED9C5FFF775905C9B601335E /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F9B4F5E50D431880FF1674FC38E96E9 /* GradientBackground.swift */; };
+		AA92EE6D3701A2DA124F33C6E1EE7B8E /* PodConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7824F5081808AB816847FE1F57435718 /* PodConstants.swift */; };
 		B9EFAD5D860EC584FCFB428477561FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		C6D222C424194B8600B64CC1 /* StringToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222C324194B8600B64CC1 /* StringToDate.swift */; };
-		C6D222C624194BD500B64CC1 /* DateComparisson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222C524194BD500B64CC1 /* DateComparisson.swift */; };
-		C6D222C92419507E00B64CC1 /* PrintFontNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222C82419507E00B64CC1 /* PrintFontNames.swift */; };
-		C6D222CB2419513100B64CC1 /* LeftSideImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222CA2419513100B64CC1 /* LeftSideImageButton.swift */; };
-		C6E1473323AD863C00910B07 /* MakeTwoAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1471A23AD863C00910B07 /* MakeTwoAttributedText.swift */; };
-		C6E1473423AD863C00910B07 /* MakeLabelWithLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1471B23AD863C00910B07 /* MakeLabelWithLineSpacing.swift */; };
-		C6E1473523AD863C00910B07 /* MakeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1471C23AD863C00910B07 /* MakeLabel.swift */; };
-		C6E1473623AD863C00910B07 /* MakeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1471E23AD863C00910B07 /* MakeButton.swift */; };
-		C6E1473723AD863C00910B07 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472023AD863C00910B07 /* Colors.swift */; };
-		C6E1473823AD863C00910B07 /* MakeLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472223AD863C00910B07 /* MakeLine.swift */; };
-		C6E1473923AD863C00910B07 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472323AD863C00910B07 /* AutoLayout.swift */; };
-		C6E1473A23AD863C00910B07 /* AnimateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472423AD863C00910B07 /* AnimateView.swift */; };
-		C6E1473B23AD863C00910B07 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472523AD863C00910B07 /* RoundCorners.swift */; };
-		C6E1473C23AD863C00910B07 /* GradientBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472623AD863C00910B07 /* GradientBackground.swift */; };
-		C6E1473D23AD863C00910B07 /* MakeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472823AD863C00910B07 /* MakeTextView.swift */; };
-		C6E1473E23AD863C00910B07 /* Aspect_Fill_Fit.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472A23AD863C00910B07 /* Aspect_Fill_Fit.swift */; };
-		C6E1473F23AD863C00910B07 /* Spinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472C23AD863C00910B07 /* Spinners.swift */; };
-		C6E1474023AD863C00910B07 /* AlertMessages.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472D23AD863C00910B07 /* AlertMessages.swift */; };
-		C6E1474123AD863C00910B07 /* MakeTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1472F23AD863C00910B07 /* MakeTextField.swift */; };
-		C6E1474223AD863C00910B07 /* DeviceSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1473123AD863C00910B07 /* DeviceSize.swift */; };
-		C6E1474323AD863C00910B07 /* FontSizeRatio.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1473223AD863C00910B07 /* FontSizeRatio.swift */; };
-		C6E1474523AD8ABE00910B07 /* PodConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1474423AD8ABE00910B07 /* PodConstants.swift */; };
 		C9422111BF2DE22868F3977275820F72 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D962B27CEE450E41E742187646A7EDFD /* Spinners.swift in Sources */ = {isa = PBXBuildFile; fileRef = F74265AB878C5E7D859FC9FC9E11B22B /* Spinners.swift */; };
+		DC5939ACD3C75DC36CB04F4335F43123 /* AlepUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B11E3E2B91815AF90D1934F4CD954E85 /* AlepUI-dummy.m */; };
+		E0A6F785CFCB5DEB5943305ED331CD84 /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF0D3670088377927AFDBDE8F3EACAA /* RoundCorners.swift */; };
 		E12727AF8E510BA81E979799FC47F659 /* Pods-AlepUI_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D047DA1A4C2E08079EA6828DC780F411 /* Pods-AlepUI_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4AA0863299ABCC233333F8E5DFF7F58 /* AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D20BEBAB728ED49AD8EDB7F019B3E30 /* AutoLayout.swift */; };
+		EF206DB6C945520AB8D8276225443E7B /* MakeTwoAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487CB5B2A176E9299E7A7F4DE983A3A4 /* MakeTwoAttributedText.swift */; };
+		F02CEA2FCE3DE410F03BDE1A88EBC593 /* StringToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4617963A401F06166BB681B19120B959 /* StringToDate.swift */; };
 		F764882240C9ED905599396B1FB8293C /* Pods-AlepUI_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 051006B2A7292C5A54156B8E7ED8C03F /* Pods-AlepUI_Example-dummy.m */; };
-		FC9DB39F26EF781AD7E4584F2B43AF99 /* AlepUI-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E614188EEE847EB766EA7F78ED4E081E /* AlepUI-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F83B339E0913CD1D69E7232633E80EC0 /* MakeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FD6EAF4625499C96CCC3E630EA88C83 /* MakeButton.swift */; };
+		FA7CFB5B6E3ADFEBC3AA23F4F174DE25 /* MakeLabelWithLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DA38907EFAE2C174C0FCAF801156EF4 /* MakeLabelWithLineSpacing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,65 +60,66 @@
 /* Begin PBXFileReference section */
 		0248D29CB1F5B508D59DDE69991FFD4F /* Pods-AlepUI_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlepUI_Tests-umbrella.h"; sourceTree = "<group>"; };
 		051006B2A7292C5A54156B8E7ED8C03F /* Pods-AlepUI_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlepUI_Example-dummy.m"; sourceTree = "<group>"; };
-		0C9AB9E3F1D6567093FECAB4DE9DA8B1 /* AlepUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlepUI.modulemap; sourceTree = "<group>"; };
+		0AF0891C5ADDBD80F6EB3431733FD349 /* AnimateView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
+		0DA38907EFAE2C174C0FCAF801156EF4 /* MakeLabelWithLineSpacing.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeLabelWithLineSpacing.swift; sourceTree = "<group>"; };
 		0FBE3D5B33EC24ABF94EA02AA172886C /* Pods-AlepUI_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Tests-Info.plist"; sourceTree = "<group>"; };
-		1CC047E03E6319B8D9F1238F136C6C3B /* AlepUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = AlepUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlepUI.xcconfig; sourceTree = "<group>"; };
+		2126C308ABA9FA30CD78435BD08DBC4A /* AlertMessages.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
+		22E057EB544E5DE460F79517506774D6 /* AlepUI.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AlepUI.modulemap; sourceTree = "<group>"; };
 		2A08DF03626C802EE9539121EE8665D6 /* Pods-AlepUI_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlepUI_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2DA7CB6094B038F5F4FE2A20A6DDD053 /* AlepUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlepUI.debug.xcconfig; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		32286872C2112C6C312B2296C051D86E /* AlepUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlepUI-Info.plist"; sourceTree = "<group>"; };
-		374FD85C77B7CA45AC9FBEA29C5B73CF /* Pods_AlepUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlepUI_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3CAE57B263D102E2A5F69999936E1AD3 /* AlepUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AlepUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		374FD85C77B7CA45AC9FBEA29C5B73CF /* Pods_AlepUI_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlepUI_Tests.framework; path = "Pods-AlepUI_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CAE57B263D102E2A5F69999936E1AD3 /* AlepUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AlepUI.framework; path = AlepUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		412D6A80713F7DB0969981F7995FD1FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		413CE9E5DA8E11E9B51F6578C46E45A6 /* MakeTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeTextView.swift; sourceTree = "<group>"; };
+		423D59EDF4ACDF4E0D3808C275C6B6C9 /* Colors.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4617963A401F06166BB681B19120B959 /* StringToDate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringToDate.swift; sourceTree = "<group>"; };
+		487CB5B2A176E9299E7A7F4DE983A3A4 /* MakeTwoAttributedText.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeTwoAttributedText.swift; sourceTree = "<group>"; };
+		4FD6EAF4625499C96CCC3E630EA88C83 /* MakeButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeButton.swift; sourceTree = "<group>"; };
+		509C7FD7C8C298C391D846B2B4661044 /* AlepUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlepUI-umbrella.h"; sourceTree = "<group>"; };
+		54C68F884358BBBEF5B8D32AD846034B /* MakeTextField.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeTextField.swift; sourceTree = "<group>"; };
+		5E1630AE50E5423EDDCA83F63D8D95A9 /* Aspect_Fill_Fit.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Aspect_Fill_Fit.swift; sourceTree = "<group>"; };
 		634B66CE1FAEB5245128DDBB3D235C7A /* Pods-AlepUI_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AlepUI_Tests-dummy.m"; sourceTree = "<group>"; };
+		67FE26F1B5B01DBF3FA5488BA963ADD7 /* FontSizeRatio.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FontSizeRatio.swift; sourceTree = "<group>"; };
+		69332916D29F97A1F06E43D386369273 /* AlepUI.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = AlepUI.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DC0FDFA23E5BABE392C3E3BFB119BCE /* Pods-AlepUI_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		7663AC6A08023CC9196A6E738CF96A6D /* Pods-AlepUI_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		779D3F40ED75373538F2789153659F56 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		7A6D4F95CD86135CEE01A9B66B02C2D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		7C3AA84125FF394A73BC656F6323CAD4 /* AlepUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlepUI-prefix.pch"; sourceTree = "<group>"; };
-		8216B7D3787DF8C8D827B7C6963D262E /* AlepUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlepUI-dummy.m"; sourceTree = "<group>"; };
+		7824F5081808AB816847FE1F57435718 /* PodConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PodConstants.swift; sourceTree = "<group>"; };
+		7C32E2119F91DD665174E60DC12BA474 /* DeviceSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
+		7CF0D3670088377927AFDBDE8F3EACAA /* RoundCorners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
+		7F9B4F5E50D431880FF1674FC38E96E9 /* GradientBackground.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
+		85BDC3CC704984E2CADED64EB28203A0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		87E24EF722B4F2F3F889D11A839ED34F /* AlepUI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlepUI-prefix.pch"; sourceTree = "<group>"; };
 		8FA22FC31E3C8B3E651D64266B04315F /* Pods-AlepUI_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AlepUI_Example-frameworks.sh"; sourceTree = "<group>"; };
 		953CA90E1A37C7EA47B79D7C07B3FDD4 /* Pods-AlepUI_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Example.release.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AB58AE6C1C1D79947DEE8F5526D6FB46 /* Pods_AlepUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlepUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D20BEBAB728ED49AD8EDB7F019B3E30 /* AutoLayout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AB58AE6C1C1D79947DEE8F5526D6FB46 /* Pods_AlepUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AlepUI_Example.framework; path = "Pods-AlepUI_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC973DF3E0BA9C827AFD28F143BACBD0 /* MakeLine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeLine.swift; sourceTree = "<group>"; };
+		ACE4273D77656313FFD683AE0B955EDD /* AlepUI-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "AlepUI-Info.plist"; sourceTree = "<group>"; };
 		AF9C84354A98FAFA5BDB4690E2EEA031 /* Pods-AlepUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B11E3E2B91815AF90D1934F4CD954E85 /* AlepUI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AlepUI-dummy.m"; sourceTree = "<group>"; };
 		C422B19F531485457EB88DA16B115E3D /* Pods-AlepUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlepUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		C6D222C324194B8600B64CC1 /* StringToDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToDate.swift; sourceTree = "<group>"; };
-		C6D222C524194BD500B64CC1 /* DateComparisson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComparisson.swift; sourceTree = "<group>"; };
-		C6D222C82419507E00B64CC1 /* PrintFontNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintFontNames.swift; sourceTree = "<group>"; };
-		C6D222CA2419513100B64CC1 /* LeftSideImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideImageButton.swift; sourceTree = "<group>"; };
-		C6E1471A23AD863C00910B07 /* MakeTwoAttributedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTwoAttributedText.swift; sourceTree = "<group>"; };
-		C6E1471B23AD863C00910B07 /* MakeLabelWithLineSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeLabelWithLineSpacing.swift; sourceTree = "<group>"; };
-		C6E1471C23AD863C00910B07 /* MakeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeLabel.swift; sourceTree = "<group>"; };
-		C6E1471E23AD863C00910B07 /* MakeButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeButton.swift; sourceTree = "<group>"; };
-		C6E1472023AD863C00910B07 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
-		C6E1472223AD863C00910B07 /* MakeLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeLine.swift; sourceTree = "<group>"; };
-		C6E1472323AD863C00910B07 /* AutoLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoLayout.swift; sourceTree = "<group>"; };
-		C6E1472423AD863C00910B07 /* AnimateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimateView.swift; sourceTree = "<group>"; };
-		C6E1472523AD863C00910B07 /* RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
-		C6E1472623AD863C00910B07 /* GradientBackground.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientBackground.swift; sourceTree = "<group>"; };
-		C6E1472823AD863C00910B07 /* MakeTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTextView.swift; sourceTree = "<group>"; };
-		C6E1472A23AD863C00910B07 /* Aspect_Fill_Fit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aspect_Fill_Fit.swift; sourceTree = "<group>"; };
-		C6E1472C23AD863C00910B07 /* Spinners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spinners.swift; sourceTree = "<group>"; };
-		C6E1472D23AD863C00910B07 /* AlertMessages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertMessages.swift; sourceTree = "<group>"; };
-		C6E1472F23AD863C00910B07 /* MakeTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTextField.swift; sourceTree = "<group>"; };
-		C6E1473123AD863C00910B07 /* DeviceSize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceSize.swift; sourceTree = "<group>"; };
-		C6E1473223AD863C00910B07 /* FontSizeRatio.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeRatio.swift; sourceTree = "<group>"; };
-		C6E1474423AD8ABE00910B07 /* PodConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodConstants.swift; sourceTree = "<group>"; };
+		C6AA257041A6A1BBDAAC96F58D0E5E4D /* DateComparisson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateComparisson.swift; sourceTree = "<group>"; };
 		CA327B97F1799E437BF59CE85773863C /* Pods-AlepUI_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		CB770948E855F0359F325C839F9E133D /* PrintFontNames.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = PrintFontNames.swift; sourceTree = "<group>"; };
 		CDF90CBFF12A3699E7131BCDC5C68FFA /* Pods-AlepUI_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlepUI_Example.modulemap"; sourceTree = "<group>"; };
 		D047DA1A4C2E08079EA6828DC780F411 /* Pods-AlepUI_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AlepUI_Example-umbrella.h"; sourceTree = "<group>"; };
+		E27769417BD1E60E51289D4294A53E95 /* LeftSideImageButton.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = LeftSideImageButton.swift; sourceTree = "<group>"; };
 		E520C29CF51FD0CAF4808A7F328B7582 /* Pods-AlepUI_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		E614188EEE847EB766EA7F78ED4E081E /* AlepUI-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AlepUI-umbrella.h"; sourceTree = "<group>"; };
+		E9D166E13B5EE0B13898B73CC6527CD6 /* AlepUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AlepUI.release.xcconfig; sourceTree = "<group>"; };
 		EE5528098C6ED6C9D5BE1AE998885843 /* Pods-AlepUI_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AlepUI_Tests.modulemap"; sourceTree = "<group>"; };
+		F74265AB878C5E7D859FC9FC9E11B22B /* Spinners.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Spinners.swift; sourceTree = "<group>"; };
+		F909A493EFB40949DBCCD7DFDADA291B /* MakeLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MakeLabel.swift; sourceTree = "<group>"; };
 		FCECE1B56BB92A1CE8E6A82221787898 /* Pods-AlepUI_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AlepUI_Example-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		529AC0F774091B25D28294D99D813A2D /* Frameworks */ = {
+		8EA11E797FF4C91988288B7E07844355 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				13213ECD2B025B75DDBE7D1942B2E1E8 /* Foundation.framework in Frameworks */,
+				3EF4CADFE4BC521FDA0B9F6B515D89AC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,15 +142,62 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29E0C6C32B187DC84BAAEE854520CC2D /* AlepUI */ = {
+		0D420ED30E65D8E01FFEF9F77DFB30D6 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
-				C6E1471623AD863C00910B07 /* Source */,
-				7537B4939638E8C7B301E59244C4389A /* Pod */,
-				E30C9279A58FC0FCC357A43C653ADCB1 /* Support Files */,
+				7824F5081808AB816847FE1F57435718 /* PodConstants.swift */,
+				1071140687AD6057D6F0C629C9D07212 /* UIButton */,
+				908B414CE819DDC011E6856E7FE39BBE /* UIColor */,
+				EF898E9669F3FE1E7C127F326C085D98 /* UIFont */,
+				C270AD238A32C7ACEB6176887BD831F0 /* UIImageView */,
+				6FF4E42A60DE6FB3DEA55A66EAA7465F /* UILabel */,
+				C495D4EF2FA24A36F7FE10B50DEF1A26 /* UITextField */,
+				80F02E17384480113CF843CAC4E29672 /* UITextView */,
+				A5BF60234B95513D550183F98FA20F0F /* UIView */,
+				427C07B69FDC18376348FF359860921D /* UIViewController */,
 			);
-			name = AlepUI;
-			path = ../..;
+			name = UIKit;
+			path = Source/UIKit;
+			sourceTree = "<group>";
+		};
+		101622A8DAC2FE9DFCEA3C7692D61C8F /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				69332916D29F97A1F06E43D386369273 /* AlepUI.podspec */,
+				412D6A80713F7DB0969981F7995FD1FD /* LICENSE */,
+				85BDC3CC704984E2CADED64EB28203A0 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1071140687AD6057D6F0C629C9D07212 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				E27769417BD1E60E51289D4294A53E95 /* LeftSideImageButton.swift */,
+				4FD6EAF4625499C96CCC3E630EA88C83 /* MakeButton.swift */,
+			);
+			name = UIButton;
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		28F93D77EC9534DAFFD3F7D882F0EA40 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C6AA257041A6A1BBDAAC96F58D0E5E4D /* DateComparisson.swift */,
+				4617963A401F06166BB681B19120B959 /* StringToDate.swift */,
+			);
+			name = Foundation;
+			path = Source/Foundation;
+			sourceTree = "<group>";
+		};
+		427C07B69FDC18376348FF359860921D /* UIViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2126C308ABA9FA30CD78435BD08DBC4A /* AlertMessages.swift */,
+				F74265AB878C5E7D859FC9FC9E11B22B /* Spinners.swift */,
+			);
+			name = UIViewController;
+			path = UIViewController;
 			sourceTree = "<group>";
 		};
 		4AEB714C19CB6E26070BA2E918441B8C /* Products */ = {
@@ -162,22 +210,24 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		698DDD125FEE58383985F361CDC4074F /* Development Pods */ = {
+		6FF4E42A60DE6FB3DEA55A66EAA7465F /* UILabel */ = {
 			isa = PBXGroup;
 			children = (
-				29E0C6C32B187DC84BAAEE854520CC2D /* AlepUI */,
+				F909A493EFB40949DBCCD7DFDADA291B /* MakeLabel.swift */,
+				0DA38907EFAE2C174C0FCAF801156EF4 /* MakeLabelWithLineSpacing.swift */,
+				487CB5B2A176E9299E7A7F4DE983A3A4 /* MakeTwoAttributedText.swift */,
 			);
-			name = "Development Pods";
+			name = UILabel;
+			path = UILabel;
 			sourceTree = "<group>";
 		};
-		7537B4939638E8C7B301E59244C4389A /* Pod */ = {
+		80F02E17384480113CF843CAC4E29672 /* UITextView */ = {
 			isa = PBXGroup;
 			children = (
-				1CC047E03E6319B8D9F1238F136C6C3B /* AlepUI.podspec */,
-				7A6D4F95CD86135CEE01A9B66B02C2D3 /* LICENSE */,
-				779D3F40ED75373538F2789153659F56 /* README.md */,
+				413CE9E5DA8E11E9B51F6578C46E45A6 /* MakeTextView.swift */,
 			);
-			name = Pod;
+			name = UITextView;
+			path = UITextView;
 			sourceTree = "<group>";
 		};
 		8A266CC3FC1511FE411F96BFE85AD2C4 /* Pods-AlepUI_Tests */ = {
@@ -194,6 +244,56 @@
 			);
 			name = "Pods-AlepUI_Tests";
 			path = "Target Support Files/Pods-AlepUI_Tests";
+			sourceTree = "<group>";
+		};
+		908B414CE819DDC011E6856E7FE39BBE /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				423D59EDF4ACDF4E0D3808C275C6B6C9 /* Colors.swift */,
+			);
+			name = UIColor;
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		955F9043316EE22F951C954BEE8827F4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				22E057EB544E5DE460F79517506774D6 /* AlepUI.modulemap */,
+				B11E3E2B91815AF90D1934F4CD954E85 /* AlepUI-dummy.m */,
+				ACE4273D77656313FFD683AE0B955EDD /* AlepUI-Info.plist */,
+				87E24EF722B4F2F3F889D11A839ED34F /* AlepUI-prefix.pch */,
+				509C7FD7C8C298C391D846B2B4661044 /* AlepUI-umbrella.h */,
+				2DA7CB6094B038F5F4FE2A20A6DDD053 /* AlepUI.debug.xcconfig */,
+				E9D166E13B5EE0B13898B73CC6527CD6 /* AlepUI.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AlepUI";
+			sourceTree = "<group>";
+		};
+		970B75B02211F52264F7BAF46007077A /* AlepUI */ = {
+			isa = PBXGroup;
+			children = (
+				28F93D77EC9534DAFFD3F7D882F0EA40 /* Foundation */,
+				101622A8DAC2FE9DFCEA3C7692D61C8F /* Pod */,
+				EACF507A3D4230B9B36B6BA4B2CCE1DA /* Size Helper */,
+				955F9043316EE22F951C954BEE8827F4 /* Support Files */,
+				0D420ED30E65D8E01FFEF9F77DFB30D6 /* UIKit */,
+			);
+			name = AlepUI;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		A5BF60234B95513D550183F98FA20F0F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				0AF0891C5ADDBD80F6EB3431733FD349 /* AnimateView.swift */,
+				9D20BEBAB728ED49AD8EDB7F019B3E30 /* AutoLayout.swift */,
+				7F9B4F5E50D431880FF1674FC38E96E9 /* GradientBackground.swift */,
+				AC973DF3E0BA9C827AFD28F143BACBD0 /* MakeLine.swift */,
+				7CF0D3670088377927AFDBDE8F3EACAA /* RoundCorners.swift */,
+			);
+			name = UIView;
+			path = UIView;
 			sourceTree = "<group>";
 		};
 		A5F2C73DB4950F0017679EDF9F8E83DD /* Targets Support Files */ = {
@@ -213,129 +313,22 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		C6D222C224194B7800B64CC1 /* Foundation */ = {
+		C270AD238A32C7ACEB6176887BD831F0 /* UIImageView */ = {
 			isa = PBXGroup;
 			children = (
-				C6D222C324194B8600B64CC1 /* StringToDate.swift */,
-				C6D222C524194BD500B64CC1 /* DateComparisson.swift */,
+				5E1630AE50E5423EDDCA83F63D8D95A9 /* Aspect_Fill_Fit.swift */,
 			);
-			path = Foundation;
-			sourceTree = "<group>";
-		};
-		C6D222C72419506E00B64CC1 /* UIFont */ = {
-			isa = PBXGroup;
-			children = (
-				C6D222C82419507E00B64CC1 /* PrintFontNames.swift */,
-			);
-			path = UIFont;
-			sourceTree = "<group>";
-		};
-		C6E1471623AD863C00910B07 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				C6D222C224194B7800B64CC1 /* Foundation */,
-				C6E1471823AD863C00910B07 /* UIKit */,
-				C6E1473023AD863C00910B07 /* Size Helper */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		C6E1471823AD863C00910B07 /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				C6D222C72419506E00B64CC1 /* UIFont */,
-				C6E1474423AD8ABE00910B07 /* PodConstants.swift */,
-				C6E1471923AD863C00910B07 /* UILabel */,
-				C6E1471D23AD863C00910B07 /* UIButton */,
-				C6E1471F23AD863C00910B07 /* UIColor */,
-				C6E1472123AD863C00910B07 /* UIView */,
-				C6E1472723AD863C00910B07 /* UITextView */,
-				C6E1472923AD863C00910B07 /* UIImageView */,
-				C6E1472B23AD863C00910B07 /* UIViewController */,
-				C6E1472E23AD863C00910B07 /* UITextField */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
-		C6E1471923AD863C00910B07 /* UILabel */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1471A23AD863C00910B07 /* MakeTwoAttributedText.swift */,
-				C6E1471B23AD863C00910B07 /* MakeLabelWithLineSpacing.swift */,
-				C6E1471C23AD863C00910B07 /* MakeLabel.swift */,
-			);
-			path = UILabel;
-			sourceTree = "<group>";
-		};
-		C6E1471D23AD863C00910B07 /* UIButton */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1471E23AD863C00910B07 /* MakeButton.swift */,
-				C6D222CA2419513100B64CC1 /* LeftSideImageButton.swift */,
-			);
-			path = UIButton;
-			sourceTree = "<group>";
-		};
-		C6E1471F23AD863C00910B07 /* UIColor */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1472023AD863C00910B07 /* Colors.swift */,
-			);
-			path = UIColor;
-			sourceTree = "<group>";
-		};
-		C6E1472123AD863C00910B07 /* UIView */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1472223AD863C00910B07 /* MakeLine.swift */,
-				C6E1472323AD863C00910B07 /* AutoLayout.swift */,
-				C6E1472423AD863C00910B07 /* AnimateView.swift */,
-				C6E1472523AD863C00910B07 /* RoundCorners.swift */,
-				C6E1472623AD863C00910B07 /* GradientBackground.swift */,
-			);
-			path = UIView;
-			sourceTree = "<group>";
-		};
-		C6E1472723AD863C00910B07 /* UITextView */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1472823AD863C00910B07 /* MakeTextView.swift */,
-			);
-			path = UITextView;
-			sourceTree = "<group>";
-		};
-		C6E1472923AD863C00910B07 /* UIImageView */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1472A23AD863C00910B07 /* Aspect_Fill_Fit.swift */,
-			);
+			name = UIImageView;
 			path = UIImageView;
 			sourceTree = "<group>";
 		};
-		C6E1472B23AD863C00910B07 /* UIViewController */ = {
+		C495D4EF2FA24A36F7FE10B50DEF1A26 /* UITextField */ = {
 			isa = PBXGroup;
 			children = (
-				C6E1472C23AD863C00910B07 /* Spinners.swift */,
-				C6E1472D23AD863C00910B07 /* AlertMessages.swift */,
+				54C68F884358BBBEF5B8D32AD846034B /* MakeTextField.swift */,
 			);
-			path = UIViewController;
-			sourceTree = "<group>";
-		};
-		C6E1472E23AD863C00910B07 /* UITextField */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1472F23AD863C00910B07 /* MakeTextField.swift */,
-			);
+			name = UITextField;
 			path = UITextField;
-			sourceTree = "<group>";
-		};
-		C6E1473023AD863C00910B07 /* Size Helper */ = {
-			isa = PBXGroup;
-			children = (
-				C6E1473123AD863C00910B07 /* DeviceSize.swift */,
-				C6E1473223AD863C00910B07 /* FontSizeRatio.swift */,
-			);
-			path = "Size Helper";
 			sourceTree = "<group>";
 		};
 		CC977B338024A2967429D8A814C0274F /* Pods-AlepUI_Example */ = {
@@ -359,11 +352,19 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				698DDD125FEE58383985F361CDC4074F /* Development Pods */,
+				D0FADF42417986C4C1DE3FF155B5ADEE /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				4AEB714C19CB6E26070BA2E918441B8C /* Products */,
 				A5F2C73DB4950F0017679EDF9F8E83DD /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		D0FADF42417986C4C1DE3FF155B5ADEE /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				970B75B02211F52264F7BAF46007077A /* AlepUI */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -374,28 +375,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E30C9279A58FC0FCC357A43C653ADCB1 /* Support Files */ = {
+		EACF507A3D4230B9B36B6BA4B2CCE1DA /* Size Helper */ = {
 			isa = PBXGroup;
 			children = (
-				0C9AB9E3F1D6567093FECAB4DE9DA8B1 /* AlepUI.modulemap */,
-				1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */,
-				8216B7D3787DF8C8D827B7C6963D262E /* AlepUI-dummy.m */,
-				32286872C2112C6C312B2296C051D86E /* AlepUI-Info.plist */,
-				7C3AA84125FF394A73BC656F6323CAD4 /* AlepUI-prefix.pch */,
-				E614188EEE847EB766EA7F78ED4E081E /* AlepUI-umbrella.h */,
+				7C32E2119F91DD665174E60DC12BA474 /* DeviceSize.swift */,
+				67FE26F1B5B01DBF3FA5488BA963ADD7 /* FontSizeRatio.swift */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AlepUI";
+			name = "Size Helper";
+			path = "Source/Size Helper";
+			sourceTree = "<group>";
+		};
+		EF898E9669F3FE1E7C127F326C085D98 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				CB770948E855F0359F325C839F9E133D /* PrintFontNames.swift */,
+			);
+			name = UIFont;
+			path = UIFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		8DF0E17BB0B545E39F141D7A369A73D8 /* Headers */ = {
+		31277CEF59E9A288920B1E4CF81AC11B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC9DB39F26EF781AD7E4584F2B43AF99 /* AlepUI-umbrella.h in Headers */,
+				5898BD69BC711EA9087CF1AD6FC613AC /* AlepUI-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -458,12 +464,12 @@
 		};
 		ED4BD6EE433BA9A48D1D835808CBA48D /* AlepUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 877972615F8996D7C033F64628A8176C /* Build configuration list for PBXNativeTarget "AlepUI" */;
+			buildConfigurationList = F058FADFCCCF3BD0263FD4401D52D625 /* Build configuration list for PBXNativeTarget "AlepUI" */;
 			buildPhases = (
-				8DF0E17BB0B545E39F141D7A369A73D8 /* Headers */,
-				21542DBF6923E7DBD64428853B0FA345 /* Sources */,
-				529AC0F774091B25D28294D99D813A2D /* Frameworks */,
-				C606450EBC7366C210F1780DE43A33A9 /* Resources */,
+				31277CEF59E9A288920B1E4CF81AC11B /* Headers */,
+				C29931F5B0317DA1117A1C0840E0CEC1 /* Sources */,
+				8EA11E797FF4C91988288B7E07844355 /* Frameworks */,
+				14200197302EC3382EA067DB7C03D823 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -482,21 +488,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
 				LastUpgradeCheck = 1100;
-				TargetAttributes = {
-					663810F7683429F1774D276B50769A19 = {
-						DevelopmentTeam = 93FAY8FJ36;
-						ProvisioningStyle = Automatic;
-					};
-					6B92AA92B1529F782F3D4D77888BE9C7 = {
-						DevelopmentTeam = 93FAY8FJ36;
-						ProvisioningStyle = Automatic;
-					};
-					ED4BD6EE433BA9A48D1D835808CBA48D = {
-						DevelopmentTeam = 93FAY8FJ36;
-						LastSwiftMigration = 1120;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -519,6 +510,13 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		14200197302EC3382EA067DB7C03D823 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1A3D33757FFAED5904464B49C67C3982 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -533,46 +531,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C606450EBC7366C210F1780DE43A33A9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		21542DBF6923E7DBD64428853B0FA345 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C6E1473523AD863C00910B07 /* MakeLabel.swift in Sources */,
-				C6D222CB2419513100B64CC1 /* LeftSideImageButton.swift in Sources */,
-				C6E1473723AD863C00910B07 /* Colors.swift in Sources */,
-				C6E1473923AD863C00910B07 /* AutoLayout.swift in Sources */,
-				C6D222C92419507E00B64CC1 /* PrintFontNames.swift in Sources */,
-				C6E1473D23AD863C00910B07 /* MakeTextView.swift in Sources */,
-				C6E1474023AD863C00910B07 /* AlertMessages.swift in Sources */,
-				C6D222C424194B8600B64CC1 /* StringToDate.swift in Sources */,
-				C6E1474123AD863C00910B07 /* MakeTextField.swift in Sources */,
-				C6E1473A23AD863C00910B07 /* AnimateView.swift in Sources */,
-				C6D222C624194BD500B64CC1 /* DateComparisson.swift in Sources */,
-				C6E1474323AD863C00910B07 /* FontSizeRatio.swift in Sources */,
-				9C8F06F22F8799A09FB20CE1823CE80B /* AlepUI-dummy.m in Sources */,
-				C6E1473C23AD863C00910B07 /* GradientBackground.swift in Sources */,
-				C6E1473823AD863C00910B07 /* MakeLine.swift in Sources */,
-				C6E1473623AD863C00910B07 /* MakeButton.swift in Sources */,
-				C6E1473B23AD863C00910B07 /* RoundCorners.swift in Sources */,
-				C6E1474523AD8ABE00910B07 /* PodConstants.swift in Sources */,
-				C6E1474223AD863C00910B07 /* DeviceSize.swift in Sources */,
-				C6E1473423AD863C00910B07 /* MakeLabelWithLineSpacing.swift in Sources */,
-				C6E1473F23AD863C00910B07 /* Spinners.swift in Sources */,
-				C6E1473323AD863C00910B07 /* MakeTwoAttributedText.swift in Sources */,
-				C6E1473E23AD863C00910B07 /* Aspect_Fill_Fit.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9DEB0E19675403422479E284F335CD34 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -586,6 +547,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				7D8DFC91C22CCCA29D259DEC6E75042C /* Pods-AlepUI_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29931F5B0317DA1117A1C0840E0CEC1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC5939ACD3C75DC36CB04F4335F43123 /* AlepUI-dummy.m in Sources */,
+				8E38A0C7CE4D590646051F6EC72BADD8 /* AlertMessages.swift in Sources */,
+				0749EE90B4871A32AC5D379AA40892F9 /* AnimateView.swift in Sources */,
+				87D8A48D77A30175CC036AF60D982792 /* Aspect_Fill_Fit.swift in Sources */,
+				E4AA0863299ABCC233333F8E5DFF7F58 /* AutoLayout.swift in Sources */,
+				2BB8E94D7B33D58113B54A8912194825 /* Colors.swift in Sources */,
+				649A062B9E0AE06B2BA208A277F46464 /* DateComparisson.swift in Sources */,
+				363BEA2B6E20EE553E6359F304B9384F /* DeviceSize.swift in Sources */,
+				98FC96B8D1D1D0E901E140930D70B1AC /* FontSizeRatio.swift in Sources */,
+				A94B13ABED9C5FFF775905C9B601335E /* GradientBackground.swift in Sources */,
+				2BA28DE8C0F8E737BC01C558462892C6 /* LeftSideImageButton.swift in Sources */,
+				F83B339E0913CD1D69E7232633E80EC0 /* MakeButton.swift in Sources */,
+				183EDB1AA35004BDBF9A1D69EF81CE48 /* MakeLabel.swift in Sources */,
+				FA7CFB5B6E3ADFEBC3AA23F4F174DE25 /* MakeLabelWithLineSpacing.swift in Sources */,
+				562B50A9BFA5D3F9FB9F3FF9798DC27B /* MakeLine.swift in Sources */,
+				1E807B633A1D1642273A96F4A38A09F6 /* MakeTextField.swift in Sources */,
+				407A2AA00A730185FB6E3FFFD8ACE16B /* MakeTextView.swift in Sources */,
+				EF206DB6C945520AB8D8276225443E7B /* MakeTwoAttributedText.swift in Sources */,
+				AA92EE6D3701A2DA124F33C6E1EE7B8E /* PodConstants.swift in Sources */,
+				96BBCB2551B5C4F57F85AC9F54B8404D /* PrintFontNames.swift in Sources */,
+				E0A6F785CFCB5DEB5943305ED331CD84 /* RoundCorners.swift in Sources */,
+				D962B27CEE450E41E742187646A7EDFD /* Spinners.swift in Sources */,
+				F02CEA2FCE3DE410F03BDE1A88EBC593 /* StringToDate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,19 +598,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		24733E78CB06D0960F224DCB8919EEAF /* Debug */ = {
+		0CBEE99D9CE4E51A34C9BFFEDDEBFC8D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA327B97F1799E437BF59CE85773863C /* Pods-AlepUI_Tests.debug.xcconfig */;
+			baseConfigurationReference = 7663AC6A08023CC9196A6E738CF96A6D /* Pods-AlepUI_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93FAY8FJ36;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -634,152 +624,50 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		169B0A9CA55D58DD61F9697C048C3659 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA327B97F1799E437BF59CE85773863C /* Pods-AlepUI_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		3407C4619863DBD93683175F5B033211 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7663AC6A08023CC9196A6E738CF96A6D /* Pods-AlepUI_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93FAY8FJ36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Tests/Pods-AlepUI_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		4CCF947976F54F5F9D2A3F291ADAC2D0 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 953CA90E1A37C7EA47B79D7C07B3FDD4 /* Pods-AlepUI_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93FAY8FJ36;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		B0087CB4594321EF41619F3181FE120E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
+		196DFA3E4A09A28224918543529A1885 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -843,19 +731,18 @@
 			};
 			name = Debug;
 		};
-		DC017F10D3BE628A60996E5A8180DC66 /* Debug */ = {
+		56F3F72FE1A64EF7139F6EE5A3B68E13 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AF9C84354A98FAFA5BDB4690E2EEA031 /* Pods-AlepUI_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93FAY8FJ36;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -870,28 +757,60 @@
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		E14A95BBABD1203854E631FD79D0A414 /* Release */ = {
+		5D453B6C54F41BB53DE25BC5BC73F16D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */;
+			baseConfigurationReference = 953CA90E1A37C7EA47B79D7C07B3FDD4 /* Pods-AlepUI_Example.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93FAY8FJ36;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AlepUI_Example/Pods-AlepUI_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A5E13A92010B780205BC8889821DC258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D166E13B5EE0B13898B73CC6527CD6 /* AlepUI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -903,10 +822,8 @@
 				MODULEMAP_FILE = "Target Support Files/AlepUI/AlepUI.modulemap";
 				PRODUCT_MODULE_NAME = AlepUI;
 				PRODUCT_NAME = AlepUI;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -916,18 +833,77 @@
 			};
 			name = Release;
 		};
-		F28AF5F837DF8432B6FB11C6B5674803 /* Debug */ = {
+		B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E8A413CADB29B6A0EB450F94D0351B2 /* AlepUI.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B452A5AE11F380395E920D23CD90122C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA7CB6094B038F5F4FE2A20A6DDD053 /* AlepUI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 93FAY8FJ36;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -939,10 +915,8 @@
 				MODULEMAP_FILE = "Target Support Files/AlepUI/AlepUI.modulemap";
 				PRODUCT_MODULE_NAME = AlepUI;
 				PRODUCT_NAME = AlepUI;
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -957,8 +931,8 @@
 		180ADEE7F71FC26893B079998B29C3B4 /* Build configuration list for PBXNativeTarget "Pods-AlepUI_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				24733E78CB06D0960F224DCB8919EEAF /* Debug */,
-				3407C4619863DBD93683175F5B033211 /* Release */,
+				169B0A9CA55D58DD61F9697C048C3659 /* Debug */,
+				0CBEE99D9CE4E51A34C9BFFEDDEBFC8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -966,17 +940,8 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
-				B0087CB4594321EF41619F3181FE120E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		877972615F8996D7C033F64628A8176C /* Build configuration list for PBXNativeTarget "AlepUI" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F28AF5F837DF8432B6FB11C6B5674803 /* Debug */,
-				E14A95BBABD1203854E631FD79D0A414 /* Release */,
+				196DFA3E4A09A28224918543529A1885 /* Debug */,
+				B01D14FDC83DCF9D4BE53066BEA96D05 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -984,8 +949,17 @@
 		C1E18A179C345CEA6C5525F3D0053B3E /* Build configuration list for PBXNativeTarget "Pods-AlepUI_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DC017F10D3BE628A60996E5A8180DC66 /* Debug */,
-				4CCF947976F54F5F9D2A3F291ADAC2D0 /* Release */,
+				56F3F72FE1A64EF7139F6EE5A3B68E13 /* Debug */,
+				5D453B6C54F41BB53DE25BC5BC73F16D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F058FADFCCCF3BD0263FD4401D52D625 /* Build configuration list for PBXNativeTarget "AlepUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B452A5AE11F380395E920D23CD90122C /* Debug */,
+				A5E13A92010B780205BC8889821DC258 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

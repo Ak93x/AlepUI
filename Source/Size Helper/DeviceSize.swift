@@ -9,9 +9,9 @@
 import UIKit
 
 
-let DEVICE_WIDTH_IN_POINTS  = UIScreen.main.bounds.width
-let DEVICE_HEIGHT_IN_POINTS = UIScreen.main.bounds.height
-let DEVICE_NATIVE_BOUNDS_HEIGHT = UIScreen.main.nativeBounds.height   // Device Height In Pixels
+public let DEVICE_WIDTH_IN_POINTS  = UIScreen.main.bounds.width
+public let DEVICE_HEIGHT_IN_POINTS = UIScreen.main.bounds.height
+public let DEVICE_NATIVE_BOUNDS_HEIGHT = UIScreen.main.nativeBounds.height   // Device Height In Pixels
 
 
 public final class DeviceSize {
