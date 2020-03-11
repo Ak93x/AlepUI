@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIResponder {
     // Font Size Regarding iPhonex & iPhone XS
-    func getFontSize() -> CGFloat {
+    public func getFontSize() -> CGFloat {
         
         switch DEVICE_NATIVE_BOUNDS_HEIGHT {
         case 2436: return 1                  //iPhoneX & iPhone XS & iPhone 11
@@ -27,7 +27,7 @@ public extension UIResponder {
         }
     }
     
-    func getHeightSizeRatio() -> CGFloat {
+    public func getHeightSizeRatio() -> CGFloat {
 
         switch DEVICE_NATIVE_BOUNDS_HEIGHT {
         case 2436: return 1                  //iPhoneX & iPhone XS & iPhone 11

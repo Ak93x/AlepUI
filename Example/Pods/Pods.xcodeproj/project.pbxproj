@@ -12,6 +12,10 @@
 		7D8DFC91C22CCCA29D259DEC6E75042C /* Pods-AlepUI_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 634B66CE1FAEB5245128DDBB3D235C7A /* Pods-AlepUI_Tests-dummy.m */; };
 		9C8F06F22F8799A09FB20CE1823CE80B /* AlepUI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8216B7D3787DF8C8D827B7C6963D262E /* AlepUI-dummy.m */; };
 		B9EFAD5D860EC584FCFB428477561FFB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C6D222C424194B8600B64CC1 /* StringToDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222C324194B8600B64CC1 /* StringToDate.swift */; };
+		C6D222C624194BD500B64CC1 /* DateComparisson.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222C524194BD500B64CC1 /* DateComparisson.swift */; };
+		C6D222C92419507E00B64CC1 /* PrintFontNames.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222C82419507E00B64CC1 /* PrintFontNames.swift */; };
+		C6D222CB2419513100B64CC1 /* LeftSideImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D222CA2419513100B64CC1 /* LeftSideImageButton.swift */; };
 		C6E1473323AD863C00910B07 /* MakeTwoAttributedText.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1471A23AD863C00910B07 /* MakeTwoAttributedText.swift */; };
 		C6E1473423AD863C00910B07 /* MakeLabelWithLineSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1471B23AD863C00910B07 /* MakeLabelWithLineSpacing.swift */; };
 		C6E1473523AD863C00910B07 /* MakeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6E1471C23AD863C00910B07 /* MakeLabel.swift */; };
@@ -78,6 +82,10 @@
 		AB58AE6C1C1D79947DEE8F5526D6FB46 /* Pods_AlepUI_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlepUI_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF9C84354A98FAFA5BDB4690E2EEA031 /* Pods-AlepUI_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AlepUI_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C422B19F531485457EB88DA16B115E3D /* Pods-AlepUI_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AlepUI_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C6D222C324194B8600B64CC1 /* StringToDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringToDate.swift; sourceTree = "<group>"; };
+		C6D222C524194BD500B64CC1 /* DateComparisson.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateComparisson.swift; sourceTree = "<group>"; };
+		C6D222C82419507E00B64CC1 /* PrintFontNames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrintFontNames.swift; sourceTree = "<group>"; };
+		C6D222CA2419513100B64CC1 /* LeftSideImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeftSideImageButton.swift; sourceTree = "<group>"; };
 		C6E1471A23AD863C00910B07 /* MakeTwoAttributedText.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeTwoAttributedText.swift; sourceTree = "<group>"; };
 		C6E1471B23AD863C00910B07 /* MakeLabelWithLineSpacing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeLabelWithLineSpacing.swift; sourceTree = "<group>"; };
 		C6E1471C23AD863C00910B07 /* MakeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MakeLabel.swift; sourceTree = "<group>"; };
@@ -205,9 +213,27 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		C6D222C224194B7800B64CC1 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				C6D222C324194B8600B64CC1 /* StringToDate.swift */,
+				C6D222C524194BD500B64CC1 /* DateComparisson.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		C6D222C72419506E00B64CC1 /* UIFont */ = {
+			isa = PBXGroup;
+			children = (
+				C6D222C82419507E00B64CC1 /* PrintFontNames.swift */,
+			);
+			path = UIFont;
+			sourceTree = "<group>";
+		};
 		C6E1471623AD863C00910B07 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				C6D222C224194B7800B64CC1 /* Foundation */,
 				C6E1471823AD863C00910B07 /* UIKit */,
 				C6E1473023AD863C00910B07 /* Size Helper */,
 			);
@@ -217,6 +243,7 @@
 		C6E1471823AD863C00910B07 /* UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				C6D222C72419506E00B64CC1 /* UIFont */,
 				C6E1474423AD8ABE00910B07 /* PodConstants.swift */,
 				C6E1471923AD863C00910B07 /* UILabel */,
 				C6E1471D23AD863C00910B07 /* UIButton */,
@@ -244,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				C6E1471E23AD863C00910B07 /* MakeButton.swift */,
+				C6D222CA2419513100B64CC1 /* LeftSideImageButton.swift */,
 			);
 			path = UIButton;
 			sourceTree = "<group>";
@@ -520,12 +548,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6E1473523AD863C00910B07 /* MakeLabel.swift in Sources */,
+				C6D222CB2419513100B64CC1 /* LeftSideImageButton.swift in Sources */,
 				C6E1473723AD863C00910B07 /* Colors.swift in Sources */,
 				C6E1473923AD863C00910B07 /* AutoLayout.swift in Sources */,
+				C6D222C92419507E00B64CC1 /* PrintFontNames.swift in Sources */,
 				C6E1473D23AD863C00910B07 /* MakeTextView.swift in Sources */,
 				C6E1474023AD863C00910B07 /* AlertMessages.swift in Sources */,
+				C6D222C424194B8600B64CC1 /* StringToDate.swift in Sources */,
 				C6E1474123AD863C00910B07 /* MakeTextField.swift in Sources */,
 				C6E1473A23AD863C00910B07 /* AnimateView.swift in Sources */,
+				C6D222C624194BD500B64CC1 /* DateComparisson.swift in Sources */,
 				C6E1474323AD863C00910B07 /* FontSizeRatio.swift in Sources */,
 				9C8F06F22F8799A09FB20CE1823CE80B /* AlepUI-dummy.m in Sources */,
 				C6E1473C23AD863C00910B07 /* GradientBackground.swift in Sources */,

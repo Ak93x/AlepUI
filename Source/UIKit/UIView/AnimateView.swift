@@ -10,7 +10,7 @@ import UIKit
 
 public extension UIView {
     
-    class func animateViewWhenShowHideKeyboard(height: CGFloat, view: UIView) {
+    public class func animateViewWhenShowHideKeyboard(height: CGFloat, view: UIView) {
         
         UIView.animate(withDuration: 0.4, delay: 0, usingSpringWithDamping: 1, initialSpringVelocity: 1, options: .curveEaseOut, animations: {
             view.frame = CGRect(x: 0, y: -(height), width: view.frame.width, height: view.frame.height)

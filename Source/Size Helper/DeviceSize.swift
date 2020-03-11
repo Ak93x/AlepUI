@@ -16,7 +16,7 @@ let DEVICE_NATIVE_BOUNDS_HEIGHT = UIScreen.main.nativeBounds.height   // Device 
 
 public final class DeviceSize {
     
-    static func isIphone() -> Bool {
+    public static func isIphone() -> Bool {
         
         switch DEVICE_NATIVE_BOUNDS_HEIGHT {
         case 2436: return true                //iPhoneX & iPhone XS
@@ -33,10 +33,10 @@ public final class DeviceSize {
         
     }
     
-    static func returnUIHeight(height: CGFloat, prototypeHeight: CGFloat = 667) -> CGFloat {
+    public static func returnUIHeight(height: CGFloat, prototypeHeight: CGFloat = 667) -> CGFloat {
         return DEVICE_HEIGHT_IN_POINTS / (prototypeHeight / height)
     }
-    static func returnUIWidth(width: CGFloat, prototypeWidth: CGFloat = 375) -> CGFloat {
+    public static func returnUIWidth(width: CGFloat, prototypeWidth: CGFloat = 375) -> CGFloat {
         return DEVICE_WIDTH_IN_POINTS / (prototypeWidth / width)
     }
 }
