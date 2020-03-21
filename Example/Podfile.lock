@@ -1,5 +1,5 @@
 PODS:
-  - AlepUI (0.1.2)
+  - AlepUI (0.1.3)
 
 DEPENDENCIES:
   - AlepUI (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AlepUI: 4b7bca7633bf2d49e40b99f589141cfeff04ff50
+  AlepUI: fc6e4f88871451c523d2cb3742dbd5859a9bf8e3
 
 PODFILE CHECKSUM: 227f1db319a5ea814b75295da7fcc900be5a6514
 
