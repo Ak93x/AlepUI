@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AlepUI'
-  s.version          = '0.1.5'
+  s.version          = '0.1.6'
   s.summary          = 'AlepUI for Coding UI Easily'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/Ak93x/AlepUI.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/AkKhawatmi'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   #s.swift_version = '>= 3.2, <= 4.0'
   s.swift_version = '5.0'
 
